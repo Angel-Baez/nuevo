@@ -1,0 +1,56 @@
+*{
+   background: #000000;
+   color:#848487;
+   padding: 0;
+   font-family: 'Bebas Neue', cursive;
+}
+
+.container{
+   width: 80%;
+   border: 2px solid #848487;
+   margin: 20px 10px;
+   padding: 15px 15px;
+}
+
+.header{
+   margin: 10px auto;
+   text-align: center;
+   color: #0014F5
+}
+
+.header span{
+   color: #848487;
+}
+.form{
+   padding: 10px;
+   text-align: center;
+   align-items: center;
+}
+
+.form input {
+   display: block
+   align-items: center;
+   margin: 10px;
+   border: none;
+   border-bottom: 1px solid #0015ff;
+   outline: none;
+}
+
+.form input:focus{
+   width: 200px;
+}
+
+.form label {
+   color: #848487;
+}
+.form button {
+   background: #0015ff;
+   width: 60%;
+   margin-top: 25px;
+   border: none;
+}
+
+.form button:hover{
+   border: 1px solid #0015ff;
+   background: none;
+}

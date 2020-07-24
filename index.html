@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Página de Registro</title>
+  
+  <!-- HTML -->
+  <!--Font-->
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <h1 class="header">Regístr<span>ate</span></h1>
+   <form action="" class="form">
+      <input type="text" name="nombre" placeholder="Nombres" required>
+      <input type="text" name="apellido" placeholder="Apellidos" required>
+      <input type="email" name="emal" placeholder="Dirección de Correo Electrónico" required>
+      <input type="tel" name="phone" placeholder="Número de Teléfono" required>
+      <input type="password" name="password" placeholder="Ingrese Contraseña" required><br />
+      <input type="password" name="password" placeholder="Confirme Contraseña" required><br />
+      <label for="date">Fecha de Nacimiento</label>
+      <input type="date" name="date" id="date" value="2020-07-24" min="1950-01-01" max="2002-12-31" required/>
+      <input type="text" name="genero" list="genero" placeholder="Genero" />
+      <datalist id="genero">
+         <option value="Femenino">
+         <option value="Masculino">
+         <option value="Otros">
+         <option value="Prefiero no especificar">
+      </datalist><br />
+      <label> <input type="checkbox" required/> Acepta los terminos y condiciones</label><br />
+      <button class="button" type="submit">Registrate</button>
+   </form>
+</div>
+</body>
+</html>
